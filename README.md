@@ -45,8 +45,6 @@ The license for ncMeta Project is contained in the „license.md“ file.
 
 There is no support for ncMeta Project. For feature requests and bug reports, please use GitHub’s issue tracker. I’ll see what I can do.
 
-***
-
 ##TSNCMetaController
 
 TSNCMetaController is the only class you’ll have to interact with. As it provides interaction with an external ressource, the Notification Center, it has been designed as a singleton class. 
@@ -81,8 +79,6 @@ If invoked, resets the internal count on how many notification have been deliver
 
 Sets TSNCMetaController’s delegate. The delegate must conform to the [TSNCMetaControllerDelegate Protocol][].
 
-***
-
 ##TSNCMetaControllerDelegate Protocol
 
 The TSNCMetaControllerDelegate Protocol is used to inform the TSNCMetaController delegate about things happening to the Notification Center. 
@@ -98,8 +94,6 @@ This delegate method is called when the Notification Center has been hidden by t
 ######-(void) newNotifications:(NSArray*)newNotifications
 
 This delegate method is called when new notifications have been delivered to and by the Notification Center. The array passed contains an object of the type [TSAppRecord][] for every app which has delivered a notification.
-
-***
 
 ##TSAppRecord
 
