@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222410C915D40EEB00AC2E93 /* TSAppRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 222410C815D40EEB00AC2E93 /* TSAppRecord.m */; };
+		22A317A115D25498002725D9 /* ncMeta.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 22A317A015D25498002725D9 /* ncMeta.iconset */; };
+		22A317B815D296F8002725D9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A317AF15D296F8002725D9 /* FMDatabase.m */; };
+		22A317B915D296F8002725D9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A317B115D296F8002725D9 /* FMDatabaseAdditions.m */; };
+		22A317BA15D296F8002725D9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A317B315D296F8002725D9 /* FMDatabasePool.m */; };
+		22A317BB15D296F8002725D9 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A317B515D296F8002725D9 /* FMDatabaseQueue.m */; };
+		22A317BC15D296F8002725D9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A317B715D296F8002725D9 /* FMResultSet.m */; };
+		22A317BE15D29B51002725D9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A317BD15D29B50002725D9 /* libsqlite3.dylib */; };
+		22B4DA0815D0761200D890FF /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B4DA0715D0761200D890FF /* CoreServices.framework */; };
+		22B4DA0915D076E000D890FF /* TSDBMonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4DA0515D075F900D890FF /* TSDBMonitorController.m */; };
+		22C4CEB315D305310088F4F9 /* TSDBConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C4CEB215D305310088F4F9 /* TSDBConnector.m */; };
+		22DB4A3B15D6864100F1A926 /* menuicon_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DB4A3715D6864100F1A926 /* menuicon_red.png */; };
+		22DB4A3C15D6864100F1A926 /* menuicon_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DB4A3815D6864100F1A926 /* menuicon_red@2x.png */; };
+		22DB4A3D15D6864100F1A926 /* menuicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DB4A3915D6864100F1A926 /* menuicon.png */; };
+		22DB4A3E15D6864100F1A926 /* menuicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DB4A3A15D6864100F1A926 /* menuicon@2x.png */; };
+		22EB2FD715DAC91800DC6094 /* TSWindowMonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EB2FD615DAC91800DC6094 /* TSWindowMonitorController.m */; };
+		22EC6F8015DAC09900BF101E /* TSNCMetaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EC6F7F15DAC09900BF101E /* TSNCMetaController.m */; };
+		22EE65A715D0610C0072CEDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EE65A615D0610C0072CEDA /* Cocoa.framework */; };
+		22EE65B115D0610C0072CEDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22EE65AF15D0610C0072CEDA /* InfoPlist.strings */; };
+		22EE65B315D0610C0072CEDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE65B215D0610C0072CEDA /* main.m */; };
+		22EE65B715D0610C0072CEDA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22EE65B515D0610C0072CEDA /* Credits.rtf */; };
+		22EE65BA15D0610C0072CEDA /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE65B915D0610C0072CEDA /* TSAppDelegate.m */; };
+		22EE65BD15D0610D0072CEDA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22EE65BB15D0610D0072CEDA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222410C715D40EEB00AC2E93 /* TSAppRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppRecord.h; sourceTree = "<group>"; };
+		222410C815D40EEB00AC2E93 /* TSAppRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAppRecord.m; sourceTree = "<group>"; };
+		22A317A015D25498002725D9 /* ncMeta.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = ncMeta.iconset; sourceTree = "<group>"; };
+		22A317AE15D296F8002725D9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		22A317AF15D296F8002725D9 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		22A317B015D296F8002725D9 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		22A317B115D296F8002725D9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		22A317B215D296F8002725D9 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		22A317B315D296F8002725D9 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		22A317B415D296F8002725D9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		22A317B515D296F8002725D9 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		22A317B615D296F8002725D9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		22A317B715D296F8002725D9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		22A317BD15D29B50002725D9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		22B4DA0515D075F900D890FF /* TSDBMonitorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSDBMonitorController.m; sourceTree = "<group>"; };
+		22B4DA0615D075F900D890FF /* TSDBMonitorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDBMonitorController.h; sourceTree = "<group>"; };
+		22B4DA0715D0761200D890FF /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		22C4CEB115D305310088F4F9 /* TSDBConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDBConnector.h; sourceTree = "<group>"; };
+		22C4CEB215D305310088F4F9 /* TSDBConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDBConnector.m; sourceTree = "<group>"; };
+		22DA4E3B15D19AA8007148F3 /* ncMeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ncMeta.entitlements; sourceTree = "<group>"; };
+		22DB4A3715D6864100F1A926 /* menuicon_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuicon_red.png; sourceTree = "<group>"; };
+		22DB4A3815D6864100F1A926 /* menuicon_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon_red@2x.png"; sourceTree = "<group>"; };
+		22DB4A3915D6864100F1A926 /* menuicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuicon.png; sourceTree = "<group>"; };
+		22DB4A3A15D6864100F1A926 /* menuicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@2x.png"; sourceTree = "<group>"; };
+		22EB2FD515DAC91800DC6094 /* TSWindowMonitorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSWindowMonitorController.h; sourceTree = "<group>"; };
+		22EB2FD615DAC91800DC6094 /* TSWindowMonitorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSWindowMonitorController.m; sourceTree = "<group>"; };
+		22EB2FD915DAC93000DC6094 /* TSWindowMonitorControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSWindowMonitorControllerDelegate.h; sourceTree = "<group>"; };
+		22EB2FDA15DAEC1F00DC6094 /* TSDBConnectorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDBConnectorDelegate.h; sourceTree = "<group>"; };
+		22EC6F7215D9AB7A00BF101E /* TSDBMonitorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDBMonitorDelegate.h; sourceTree = "<group>"; };
+		22EC6F7E15DAC09900BF101E /* TSNCMetaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNCMetaController.h; sourceTree = "<group>"; };
+		22EC6F7F15DAC09900BF101E /* TSNCMetaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNCMetaController.m; sourceTree = "<group>"; };
+		22EC6F8215DAC6DD00BF101E /* TSNCMetaControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSNCMetaControllerDelegate.h; sourceTree = "<group>"; };
+		22EE65A215D0610C0072CEDA /* ncMeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ncMeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EE65A615D0610C0072CEDA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		22EE65A915D0610C0072CEDA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		22EE65AB15D0610C0072CEDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22EE65AE15D0610C0072CEDA /* ncMeta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ncMeta-Info.plist"; sourceTree = "<group>"; };
+		22EE65B015D0610C0072CEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22EE65B215D0610C0072CEDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22EE65B415D0610C0072CEDA /* ncMeta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ncMeta-Prefix.pch"; sourceTree = "<group>"; };
+		22EE65B615D0610C0072CEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		22EE65B815D0610C0072CEDA /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		22EE65B915D0610C0072CEDA /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		22EE65BC15D0610D0072CEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22EE659F15D0610C0072CEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A317BE15D29B51002725D9 /* libsqlite3.dylib in Frameworks */,
+				22B4DA0815D0761200D890FF /* CoreServices.framework in Frameworks */,
+				22EE65A715D0610C0072CEDA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222410C515D40EDB00AC2E93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				222410C715D40EEB00AC2E93 /* TSAppRecord.h */,
+				222410C815D40EEB00AC2E93 /* TSAppRecord.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		22A317AD15D296DE002725D9 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				22A317AE15D296F8002725D9 /* FMDatabase.h */,
+				22A317AF15D296F8002725D9 /* FMDatabase.m */,
+				22A317B015D296F8002725D9 /* FMDatabaseAdditions.h */,
+				22A317B115D296F8002725D9 /* FMDatabaseAdditions.m */,
+				22A317B215D296F8002725D9 /* FMDatabasePool.h */,
+				22A317B315D296F8002725D9 /* FMDatabasePool.m */,
+				22A317B415D296F8002725D9 /* FMDatabaseQueue.h */,
+				22A317B515D296F8002725D9 /* FMDatabaseQueue.m */,
+				22A317B615D296F8002725D9 /* FMResultSet.h */,
+				22A317B715D296F8002725D9 /* FMResultSet.m */,
+			);
+			name = fmdb;
+			sourceTree = "<group>";
+		};
+		22EB2FDB15DAECB100DC6094 /* NC Database Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22C4CEB115D305310088F4F9 /* TSDBConnector.h */,
+				22C4CEB215D305310088F4F9 /* TSDBConnector.m */,
+				22EB2FDA15DAEC1F00DC6094 /* TSDBConnectorDelegate.h */,
+				22B4DA0615D075F900D890FF /* TSDBMonitorController.h */,
+				22B4DA0515D075F900D890FF /* TSDBMonitorController.m */,
+				22EC6F7215D9AB7A00BF101E /* TSDBMonitorDelegate.h */,
+			);
+			name = "NC Database Classes";
+			sourceTree = "<group>";
+		};
+		22EB2FDC15DAECCC00DC6094 /* NC Window Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22EB2FD515DAC91800DC6094 /* TSWindowMonitorController.h */,
+				22EB2FD615DAC91800DC6094 /* TSWindowMonitorController.m */,
+				22EB2FD915DAC93000DC6094 /* TSWindowMonitorControllerDelegate.h */,
+			);
+			name = "NC Window Classes";
+			sourceTree = "<group>";
+		};
+		22EE659715D0610C0072CEDA = {
+			isa = PBXGroup;
+			children = (
+				22EE65AC15D0610C0072CEDA /* ncMeta */,
+				22EE65A515D0610C0072CEDA /* Frameworks */,
+				22EE65A315D0610C0072CEDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22EE65A315D0610C0072CEDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22EE65A215D0610C0072CEDA /* ncMeta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22EE65A515D0610C0072CEDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22EE65A615D0610C0072CEDA /* Cocoa.framework */,
+				22EE65A815D0610C0072CEDA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22EE65A815D0610C0072CEDA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A317BD15D29B50002725D9 /* libsqlite3.dylib */,
+				22B4DA0715D0761200D890FF /* CoreServices.framework */,
+				22EE65A915D0610C0072CEDA /* AppKit.framework */,
+				22EE65AB15D0610C0072CEDA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		22EE65AC15D0610C0072CEDA /* ncMeta */ = {
+			isa = PBXGroup;
+			children = (
+				22A317AD15D296DE002725D9 /* fmdb */,
+				222410C515D40EDB00AC2E93 /* Model */,
+				22EB2FDC15DAECCC00DC6094 /* NC Window Classes */,
+				22EB2FDB15DAECB100DC6094 /* NC Database Classes */,
+				22EC6F7E15DAC09900BF101E /* TSNCMetaController.h */,
+				22EC6F7F15DAC09900BF101E /* TSNCMetaController.m */,
+				22EC6F8215DAC6DD00BF101E /* TSNCMetaControllerDelegate.h */,
+				22EE65B815D0610C0072CEDA /* TSAppDelegate.h */,
+				22EE65B915D0610C0072CEDA /* TSAppDelegate.m */,
+				22EE65AD15D0610C0072CEDA /* Supporting Files */,
+			);
+			path = ncMeta;
+			sourceTree = "<group>";
+		};
+		22EE65AD15D0610C0072CEDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22DB4A3715D6864100F1A926 /* menuicon_red.png */,
+				22DB4A3815D6864100F1A926 /* menuicon_red@2x.png */,
+				22DB4A3915D6864100F1A926 /* menuicon.png */,
+				22DB4A3A15D6864100F1A926 /* menuicon@2x.png */,
+				22EE65BB15D0610D0072CEDA /* MainMenu.xib */,
+				22A317A015D25498002725D9 /* ncMeta.iconset */,
+				22DA4E3B15D19AA8007148F3 /* ncMeta.entitlements */,
+				22EE65AE15D0610C0072CEDA /* ncMeta-Info.plist */,
+				22EE65AF15D0610C0072CEDA /* InfoPlist.strings */,
+				22EE65B215D0610C0072CEDA /* main.m */,
+				22EE65B415D0610C0072CEDA /* ncMeta-Prefix.pch */,
+				22EE65B515D0610C0072CEDA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22EE65A115D0610C0072CEDA /* ncMeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22EE65C015D0610D0072CEDA /* Build configuration list for PBXNativeTarget "ncMeta" */;
+			buildPhases = (
+				22EE659E15D0610C0072CEDA /* Sources */,
+				22EE659F15D0610C0072CEDA /* Frameworks */,
+				22EE65A015D0610C0072CEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ncMeta;
+			productName = ncMeta;
+			productReference = 22EE65A215D0610C0072CEDA /* ncMeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22EE659915D0610C0072CEDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Tim Schröder";
+			};
+			buildConfigurationList = 22EE659C15D0610C0072CEDA /* Build configuration list for PBXProject "ncMeta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22EE659715D0610C0072CEDA;
+			productRefGroup = 22EE65A315D0610C0072CEDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22EE65A115D0610C0072CEDA /* ncMeta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22EE65A015D0610C0072CEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EE65B115D0610C0072CEDA /* InfoPlist.strings in Resources */,
+				22EE65B715D0610C0072CEDA /* Credits.rtf in Resources */,
+				22EE65BD15D0610D0072CEDA /* MainMenu.xib in Resources */,
+				22A317A115D25498002725D9 /* ncMeta.iconset in Resources */,
+				22DB4A3B15D6864100F1A926 /* menuicon_red.png in Resources */,
+				22DB4A3C15D6864100F1A926 /* menuicon_red@2x.png in Resources */,
+				22DB4A3D15D6864100F1A926 /* menuicon.png in Resources */,
+				22DB4A3E15D6864100F1A926 /* menuicon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22EE659E15D0610C0072CEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EE65B315D0610C0072CEDA /* main.m in Sources */,
+				22EE65BA15D0610C0072CEDA /* TSAppDelegate.m in Sources */,
+				22B4DA0915D076E000D890FF /* TSDBMonitorController.m in Sources */,
+				22A317B815D296F8002725D9 /* FMDatabase.m in Sources */,
+				22A317B915D296F8002725D9 /* FMDatabaseAdditions.m in Sources */,
+				22A317BA15D296F8002725D9 /* FMDatabasePool.m in Sources */,
+				22A317BB15D296F8002725D9 /* FMDatabaseQueue.m in Sources */,
+				22A317BC15D296F8002725D9 /* FMResultSet.m in Sources */,
+				22C4CEB315D305310088F4F9 /* TSDBConnector.m in Sources */,
+				222410C915D40EEB00AC2E93 /* TSAppRecord.m in Sources */,
+				22EC6F8015DAC09900BF101E /* TSNCMetaController.m in Sources */,
+				22EB2FD715DAC91800DC6094 /* TSWindowMonitorController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22EE65AF15D0610C0072CEDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EE65B015D0610C0072CEDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22EE65B515D0610C0072CEDA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EE65B615D0610C0072CEDA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		22EE65BB15D0610D0072CEDA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EE65BC15D0610D0072CEDA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22EE65BE15D0610D0072CEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22EE65BF15D0610D0072CEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22EE65C115D0610D0072CEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ncMeta/ncMeta.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ncMeta/ncMeta-Prefix.pch";
+				INFOPLIST_FILE = "ncMeta/ncMeta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22EE65C215D0610D0072CEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ncMeta/ncMeta.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ncMeta/ncMeta-Prefix.pch";
+				INFOPLIST_FILE = "ncMeta/ncMeta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22EE659C15D0610C0072CEDA /* Build configuration list for PBXProject "ncMeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EE65BE15D0610D0072CEDA /* Debug */,
+				22EE65BF15D0610D0072CEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22EE65C015D0610D0072CEDA /* Build configuration list for PBXNativeTarget "ncMeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EE65C115D0610D0072CEDA /* Debug */,
+				22EE65C215D0610D0072CEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22EE659915D0610C0072CEDA /* Project object */;
+}
