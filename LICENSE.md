@@ -1,4 +1,4 @@
-###ncMeta Project License
+# ncMeta Project License
 
 Copyright (c) 2012 Tim Schröder
 
