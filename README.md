@@ -9,7 +9,7 @@ I developed the ncMeta Project to facilitate interaction with Mountain Lion’s 
 
 ## How does it work? 
 
-The ncMeta Project consists of several classes, most of which are described below. However, you’ll typically only have to interact with the [TSNCMetaController][] class and the [TSNCMetaControllerDelegate Protocol][]. 
+The ncMeta Project consists of several classes, most of which are described below. However, you’ll typically only have to interact with the `TSNCMetaController class` and the `TSNCMetaControllerDelegate` Protocol. 
 
 Behind the scenes, the ncMeta Project reads from the sqlite database Notification Center uses to store information about notifications and the apps which deliver them. To monitor when Notification Center is in front, it sets a timer and regularly checks if its window (which doesn’t look like a window) is the front-most window.
 
@@ -21,11 +21,11 @@ To use the ncMeta Project in your application, first
 
 * put all ncMeta files into your Xcode project,
 * put the fmdb classes mentioned below into your Xcode project,
-* if you want to sandbox your app, please read the [sandbox caveats][] below, 
+* if you want to sandbox your app, please read the sandbox caveats below, 
 * link to the CoreServices framework and to the libsqlite3.dylib library,
-* read the [General Caveats][] (see below).
+* read the General Caveats (see below).
 
-Second, read and follow the documentation of the [TSNCMetaController][] class and the [TSNCMetaControllerDelegate Protocol][]. Off you go!
+Second, read and follow the documentation of the TSNCMetaController class and the TSNCMetaControllerDelegate Protocol. Off you go!
 
 ## General Caveats
 
@@ -60,7 +60,7 @@ You’ll then receive information about Notification Center events via the [TSNC
 
 #### -(void) startOperations
 
-Begins monitoring Notification Center’s behaviour, i.e. if it is brought to front or if new notifications are delivered to it. If one of this happens, the delegate is called via the [TSNCMetaControllerDelegate Protocol][].
+Begins monitoring Notification Center’s behaviour, i.e. if it is brought to front or if new notifications are delivered to it. If one of this happens, the delegate is called via the TSNCMetaControllerDelegate Protocol.
 
 #### -(void) stopOperations
 
@@ -72,7 +72,7 @@ If invoked, resets the internal count on how many notification have been deliver
 
 #### -(void) setDelegate:(id)delegate
 
-Sets TSNCMetaController’s delegate. The delegate must conform to the [TSNCMetaControllerDelegate Protocol][].
+Sets TSNCMetaController’s delegate. The delegate must conform to the TSNCMetaControllerDelegate Protocol.
 
 ### TSNCMetaControllerDelegate Protocol
 
@@ -88,7 +88,7 @@ This delegate method is called when the Notification Center has been hidden by t
 
 #### -(void) newNotifications:(NSArray*)newNotifications
 
-This delegate method is called when new notifications have been delivered to and by the Notification Center. The array passed contains an object of the type [TSAppRecord][] for every app which has delivered a notification.
+This delegate method is called when new notifications have been delivered to and by the Notification Center. The array passed contains an object of the type TSAppRecord for every app which has delivered a notification.
 
 ### TSAppRecord
 
