@@ -25,7 +25,7 @@ To use the ncMeta Project in your application, first
 * link to the CoreServices framework and to the libsqlite3.dylib library,
 * read the General Caveats (see below).
 
-Second, read and follow the documentation of the TSNCMetaController class and the TSNCMetaControllerDelegate Protocol. Off you go!
+Second, read and follow the documentation of the `TSNCMetaController` class and the `TSNCMetaControllerDelegate` Protocol. Off you go!
 
 ## General Caveats
 
