@@ -31,7 +31,6 @@ Second, read and follow the documentation of the `TSNCMetaController` class and 
 
 * ncMeta Project will only compile with Xcode 4.4+ and needs ARC to be enabled.
 * ncMeta Project uses the [fmdb framework](https://github.com/ccgus/fmdb) and needs the following .h and .m files to be present in order to compile: FMDatabase, FMDatabaseAdditions, FMDatabasePool, FMDatabaseQueue, FMResultSet.
-* ncMeta Project is work in progress.
 
 ## Sandbox Caveats
 
@@ -45,22 +44,22 @@ The license for ncMeta Project is contained in the `license.md` file.
 
 ### TSNCMetaController
 
-TSNCMetaController is the only class you’ll have to interact with. As it provides interaction with an external ressource, the Notification Center, it has been designed as a singleton class. 
+`TSNCMetaController` is the only class you’ll have to interact with. As it provides interaction with an external ressource, the Notification Center, it has been designed as a singleton class. 
 
-Connect to the TSNCMetaController singleton using code like this:
+Connect to the `TSNCMetaController` singleton using code like this:
 
 	TSNCMetaController *ncController = [TSNCMetaController sharedController];
 
-Before using TSNCMetaController, you’ll have to set its `delegate` property, as most communication between the controller class and your application will be uni-directional, facilitated by the [TSNCMetaControllerDelegate Protocol][]. So, to start monitor operations after having connected to the TSNCMetaController singlton, use this code:
+Before using `TSNCMetaController`, you’ll have to set its `delegate` property, as most communication between the controller class and your application will be uni-directional, facilitated by the `TSNCMetaControllerDelegate` Protocol. So, to start monitor operations after having connected to the `TSNCMetaController` singleton, use this code:
 
     [ncController setDelegate:self];
     [ncController startOperations];
 
-You’ll then receive information about Notification Center events via the [TSNCMetaControllerDelegate Protocol][].
+You’ll then receive information about Notification Center events via the `TSNCMetaControllerDelegate Protocol`.
 
 #### -(void) startOperations
 
-Begins monitoring Notification Center’s behaviour, i.e. if it is brought to front or if new notifications are delivered to it. If one of this happens, the delegate is called via the TSNCMetaControllerDelegate Protocol.
+Begins monitoring Notification Center’s behaviour, i.e. if it is brought to front or if new notifications are delivered to it. If one of this happens, the delegate is called via the `TSNCMetaControllerDelegate` Protocol.
 
 #### -(void) stopOperations
 
@@ -72,11 +71,11 @@ If invoked, resets the internal count on how many notification have been deliver
 
 #### -(void) setDelegate:(id)delegate
 
-Sets TSNCMetaController’s delegate. The delegate must conform to the TSNCMetaControllerDelegate Protocol.
+Sets TSNCMetaController’s delegate. The delegate must conform to the `TSNCMetaControllerDelegate` Protocol.
 
 ### TSNCMetaControllerDelegate Protocol
 
-The TSNCMetaControllerDelegate Protocol is used to inform the TSNCMetaController delegate about things happening to the Notification Center. 
+The `TSNCMetaControllerDelegate` Protocol is used to inform the `TSNCMetaController` delegate about things happening to the Notification Center. 
 
 #### -(void) hasBecomeVisible
 
@@ -88,11 +87,11 @@ This delegate method is called when the Notification Center has been hidden by t
 
 #### -(void) newNotifications:(NSArray*)newNotifications
 
-This delegate method is called when new notifications have been delivered to and by the Notification Center. The array passed contains an object of the type TSAppRecord for every app which has delivered a notification.
+This delegate method is called when new notifications have been delivered to and by the Notification Center. The array passed contains an object of the type `TSAppRecord` for every app which has delivered a notification.
 
 ### TSAppRecord
 
-TSAppRecord is the model class used to pass information on notifications delivered to the Notification Center by an app. It contains a number of public properties and one public method.
+`TSAppRecord` is the model class used to pass information on notifications delivered to the Notification Center by an app. It contains a number of public properties and one public method.
 
 #### @property (strong) NSString *bundle_id
 
@@ -108,8 +107,8 @@ Is `YES` if the user has enabled Notification Center notifications for this app 
 
 #### @property (assign) NSInteger increase
 
-Contains the number of notifications this app has delivered to the Notification Center since the last reset of this property. Calling TSNCMetaController’s -resetCount method resets this property for all TSAppRecord instances present. The value of this property may be greater than the value the `show_count` property returns.
+Contains the number of notifications this app has delivered to the Notification Center since the last reset of this property. Calling `TSNCMetaController` -resetCount method resets this property for all `TSAppRecord` instances present. The value of this property may be greater than the value the `show_count` property returns.
 
 #### -(NSString*) displayTitle
 
-This convenience method returns the localized title of the application whose notification info is contained in a TSAppRecord instance.
+This convenience method returns the localized title of the application whose notification info is contained in a `TSAppRecord` instance.
